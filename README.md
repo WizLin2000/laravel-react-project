@@ -55,18 +55,22 @@ npm install
 npm run dev
 ```   
 --------------------------------------------------------------------------
---⚙️ Environment Variables
+⚙️ Environment Variables
+
 this is in laravel .env(in /backend)
 make sure .env file contain valid database credentials.
 
+```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_db_name
 DB_USERNAME=root
 DB_PASSWORD=
+```
 ---------------------------------------------------------------------------
 -How to create the database
+
 🔸if using Laragon
 Laragon will automatically create the database when php artisan migrate is run, as long as:
 
@@ -79,13 +83,16 @@ You can also create manually via:
     Laragon Menu → Database → HeidiSQL or phpMyAdmin
 -----------------------------------------------------------------------------
 🔁 Running Both Frontend & Backend
+```env
 -Terminal 1 – Laravel
 
 cd backend
 php artisan serve
-
+```
+```env
 -Terminal 2 – React
 cd frontend
 npm run dev
 ```
+
 ✅ With this setup, you will have your Laravel API running at localhost:8000 and your React frontend at localhost:5173. Make sure to configure CORS and API URLs properly.

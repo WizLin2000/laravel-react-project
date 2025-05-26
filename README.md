@@ -32,13 +32,14 @@ WU_PROJECT/
 ---
 
 ## 🚀 Installation Guide
-
-### 1️⃣ Clone the Repository
 ```bash
+### 1️⃣ Clone the Repository
+
 -- vs code termianl
 git clone https://github.com/WizLin2000/laravel-react-project.git
 cd laravel-react-app
-
+```
+```bash
 ### 2️⃣ Setup Laravel Backend
 cd backend
 composer install
@@ -46,11 +47,13 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate        # Optional: only if you use database
 php artisan serve 
-
+```
+```bash
 ### 3️⃣ Setup React Frontend
 cd ../frontend
 npm install
-npm run dev   
+npm run dev
+```   
 --------------------------------------------------------------------------
 --⚙️ Environment Variables
 this is in laravel .env(in /backend)

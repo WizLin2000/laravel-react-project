@@ -1,0 +1,15 @@
+# 作業系統的垃圾檔
+.DS_Store
+Thumbs.db
+
+# VSCode / PHPStorm 等 IDE 的設定
+.vscode
+.idea
+
+# 安裝暫存或快取檔
+*.log
+*.tmp
+
+# 若有 build artifacts 放在根目錄，也可以加進來
+dist/
+build/

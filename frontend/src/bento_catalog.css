@@ -1,0 +1,169 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.outer_container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; 
+
+}
+.bento_container {
+
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    justify-content: flex-start;
+    
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    }
+
+    
+    .bento-item {
+    
+    border: 2px solid #ccc;
+    
+    margin: 10px;
+    
+    padding: 10px;
+    
+    width: 25%; 
+    
+    box-shadow: 0px 0px 10px #aaa;
+    
+    }
+    
+    .bento-item img {
+    
+  
+    
+    max-width: 100%; 
+    
+    max-height: 150px;
+    
+    object-fit: cover;
+    
+    }
+    
+    .order_button {
+    
+    width: 120px;
+    
+    padding: 10px;
+    
+    background-color: gold;
+    
+    border: none;
+    
+    cursor: pointer;
+    
+    font-size: 16px;
+    
+    display: flex;
+    
+    margin: 0 auto;
+    
+    } */
+
+    /* chatGPT */
+    .catalog-container {
+        text-align: center;
+        margin: 20px;
+      }
+      
+      /* 便當容器 */
+      .bento-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      /* 單個便當項目 */
+      .bento-item {
+        border: 2px solid #f4a460;
+        border-radius: 8px;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fffaf0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* 便當圖片 */
+      .bento-image {
+        width: 100%;
+        border-radius: 8px;
+      }
+      
+      /* 便當名稱 */
+      .bento-name {
+        font-size: 16px;
+        margin: 10px 0;
+      }
+      
+      /* 便當價格 */
+      .bento-price {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      
+      /* 顯示細部說明的連結 */
+      .bento-link {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 8px;
+        color: #ff6347;
+        text-decoration: none;
+      }
+      
+      .bento-link:hover {
+        text-decoration: underline;
+      }
+      
+      /* 數量輸入框容器 */
+      .quantity-container {
+        margin-top: 8px;
+      }
+      
+      /* 數量輸入框 */
+      .quantity-input {
+        width: 50px;
+        text-align: center;
+        padding: 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      /* 新增訂購項目按鈕 */
+      .add-order-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #ffa07a;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .add-order-button:hover {
+        background-color: #ff7f50;
+      }

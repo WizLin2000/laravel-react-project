@@ -22,12 +22,13 @@ To run this project on a local Windows machine, you will need the following soft
 ---
 
 ## 📁 Project Structure
+```
 WU_PROJECT/
-├── backend/ # Laravel backend
+├── backend/  # Laravel backend
 ├── frontend/ # React frontend
-├── .gitignore # Root-level Git ignore settings
+├── .gitignore# Root-level Git ignore settings
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🚀 Installation Guide
